@@ -8,6 +8,8 @@ the next day a small group of Romans led by Titus himself managed to scale the w
 gates to let in the entire Roman army. Taken by surprise, the Jews were furthermore confounded by a
 thick mist, and the Romans quickly took hold of the summit, pursuing the inhabitants down the eastern
 slope.
+
+#
 And for the Romans, they so well remembered what they had suffered during the siege,
 that they spared none, nor pitied any, but drove the people down the precipice from the
 citadel, and slew them as they drove them down; at which time the difficulties of the place
