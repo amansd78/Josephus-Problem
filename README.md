@@ -50,9 +50,3 @@ For a given number of people (n) and a given number of steps (k), the algorithm 
 person who looks k − 1 places ahead1
 and kills the person at that spot. Then the process is repeated in
 a circle until only one person survives, who is the winner W(n).
-
-
-For a given number of people (n) and a given number of steps (k), the algorithm starts at the first
-person who looks k − 1 places ahead1
-and kills the person at that spot. Then the process is repeated in
-a circle until only one person survives, who is the winner W(n).
