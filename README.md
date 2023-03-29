@@ -32,3 +32,8 @@ After they were captured and taken to the Roman general Vespasian, Yosef managed
 defected to the Romans during the Great Revolt, as well as becoming a close friend of Titus, after Vespasian became Imperator of the Roman Empire, Yosef was granted his freedom and assumed the name
 Flavious Josephus, in honor of the family name of Vespasian and Titus.
 In this project different algorithms were coded using the python to demonstrate the time-complexity of different algorithms and as result we learned efficient way of writing the algorithms
+
+For a given number of people (n) and a given number of steps (k), the algorithm starts at the first
+person who looks k − 1 places ahead1
+and kills the person at that spot. Then the process is repeated in
+a circle until only one person survives, who is the winner W(n).
