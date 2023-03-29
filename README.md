@@ -16,11 +16,16 @@ citadel, and slew them as they drove them down; at which time the difficulties o
 hindered those that were still able to fight from defending themselves; for as they were distressed in the narrow streets, and could not keep their feet sure along the precipice, they
 were overpowered with the crowd of those that came fighting them down from the citadel.
 —Flavius Josephus, The Wars of the Jews, Book III, Ch. 7, sec. 34
+
+#
 Meanwhile, Yosef ben-Matityahu hid in one of the many caves around the area alongside 40 other
 Jewish citizens. Even though Yosef was in favour of surrendering, most of the people alongside him
 prefered death rather than surrendering to the Romans. However, since in the Talmud suicide is considered a sin, they chose to draw lots and to kill each other. When there were only two people left,
 Yosef and another man, Yosef managed to convince the other person to give themselves up rather than
 letting one of them kill the other and then commit suicide.
+
+#
+
 However, in this extreme distress, he was not destitute of his usual sagacity; but trusting
 himself to the providence of God, he put his life into hazard [in the manner following]:
 ”And now,” said he, ”since it is resolved among you that you will die, come on, let us commit our mutual deaths to determination by lot. He whom the lot falls to first, let him be
@@ -30,10 +35,22 @@ rest are gone, somebody should repent and save himself.” This proposal appeare
 to be very just; and when he had prevailed with them to determine this matter by lots, he
 drew one of the lots for himself also.
 —Flavious Josephus, The Wars of the Jews, Book III, Ch. 8, sec. 7
+
+#
+
 After they were captured and taken to the Roman general Vespasian, Yosef managed to earn Vespasian’s favour, who spared Yosef’s life, deciding to keep him as his slave and interpreter. Having fully
 defected to the Romans during the Great Revolt, as well as becoming a close friend of Titus, after Vespasian became Imperator of the Roman Empire, Yosef was granted his freedom and assumed the name
 Flavious Josephus, in honor of the family name of Vespasian and Titus.
 In this project different algorithms were coded using the python to demonstrate the time-complexity of different algorithms and as result we learned efficient way of writing the algorithms
+
+#
+The previous chapter raised some uniquely interesting questions. First of all, how did Josephus out of all the people survive? Was it divine providence, a stroke of luck or maybe something more? How easy would it have been for Josephus to figure out where to stand in the circle of men killing each other so that he would be one of the last two people to survive? Is there a solution such that you can always be the final survivor for an arbitrary amount of men stuck with you in a cave? Turns out, there is.
+
+For a given number of people (n) and a given number of steps (k), the algorithm starts at the first
+person who looks k − 1 places ahead1
+and kills the person at that spot. Then the process is repeated in
+a circle until only one person survives, who is the winner W(n).
+
 
 For a given number of people (n) and a given number of steps (k), the algorithm starts at the first
 person who looks k − 1 places ahead1
